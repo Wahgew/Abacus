@@ -33,16 +33,6 @@ public class SliderDriverForm extends JFrame implements ChangeListener {
 
     public static void main(String[] args) {
         new SliderDriverForm();
-//        JFrame frame = new JFrame("Abacus");
-//        frame.setContentPane(new SliderDriverForm().mainPanel);
-//        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-//        frame.pack();
-//        frame.setVisible(true);
-//
-//        //Custom side labels
-//        Hashtable<Integer,JComponent> sideLables = new Hashtable<>();
-//        sideLables.put(0, new JLabel("0"));
-//        sideLables.put(1, new JLabel("5"));
     }
 
     public SliderDriverForm() {
@@ -52,15 +42,6 @@ public class SliderDriverForm extends JFrame implements ChangeListener {
         setSize(700,500);
         setLocationRelativeTo(null);
         setVisible(true);
-
-        //Center
-
-//        JFrame frame = new JFrame("Abacus");
-//        frame.setContentPane(new SliderDriverForm().mainPanel);
-//        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-//        //frame.setLocation(1000,1000);
-//        frame.pack();
-//        frame.setVisible(true);
 
         //Custom side labels
         Hashtable<Integer,JComponent> sideLables = new Hashtable<>();
@@ -90,18 +71,6 @@ public class SliderDriverForm extends JFrame implements ChangeListener {
         bottomSlider6.addChangeListener(this);
         bottomSlider7.addChangeListener(this);
     }
-
-//    @Override
-//    public void paint(Graphics g) {
-//        Graphics2D g2D = (Graphics2D) g;
-//
-//        g2D.setPaint(Color.white);
-//        g2D.drawRect(0,0,5,5);
-//
-//    }
-
-
-
 
     @Override
     public void stateChanged(ChangeEvent e) {
