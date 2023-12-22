@@ -8,9 +8,5 @@ public class Main {
 
         SliderGridLayout s1 = new SliderGridLayout();
         SliderDriverForm Abacus = new SliderDriverForm();
-
-        //SliderTest s1 = new SliderTest();
-        //SwingAlignment ss1 = new SwingAlignment();
-        //SliderDemo p1 = new SliderDemo();
     }
 }
