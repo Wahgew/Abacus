@@ -29,7 +29,6 @@ public class SliderDriverForm extends JFrame implements ChangeListener {
     private JLabel label5;
     private JLabel label7;
     private JLabel label6;
-    private JPanel centerCircle;
 
     public static void main(String[] args) {
         new SliderDriverForm();
